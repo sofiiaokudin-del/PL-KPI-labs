@@ -1,0 +1,9 @@
+n = int(input("Введіть число: "))
+if n < 2:
+    print(n, "не є простим числом")
+else:
+    for i in range(2, n):
+        if n % i == 0:
+            print(n, "не є простим числом")
+    else:
+        print(n, "є простим числом")
