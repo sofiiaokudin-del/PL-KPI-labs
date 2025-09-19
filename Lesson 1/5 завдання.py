@@ -1,6 +1,7 @@
-number = int(input("Введіть число :")
-if number == number [:: -1]:
-             print(number ,"це є паліндром")
-else nember:
-    print(number ,"це не є паліндром")
-            
+number = input("Введіть число: ")
+
+if number == number[::-1]:
+    print(number, "це є паліндром")
+else:
+    print(number, "це не є паліндром")
+
